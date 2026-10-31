@@ -380,7 +380,7 @@ window.LAudio = (function () {
 
   function test(on) { // Scene 2 audio test: the project's own sound (Audio_1.wav)
     unlock();
-    if (!testEl) { testEl = new Audio('audio/Audio_1.wav'); testEl.loop = true; }
+    if (!testEl) { testEl = new Audio('Audio_1.wav'); testEl.loop = true; }
     if (on) { testEl.currentTime = 0; testEl.play().catch(() => {}); } else testEl.pause();
   }
 

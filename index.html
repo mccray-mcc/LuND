@@ -6,7 +6,7 @@
 <title>LuND — London Urban Noise</title>
 <meta name="description" content="LuND · London Urban Noise Distribution. Move through London's streets and hear how loud the city is — green space versus urban noise, and what it does to the body.">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/5.6.0/maplibre-gl.css">
-<link rel="stylesheet" href="css/lund.css">
+<link rel="stylesheet" href="lund.css">
 </head>
 <body class="mode-intro">
 
@@ -168,17 +168,17 @@
 </main>
 
 <!-- ============ CORNER LOGO (LOGO_ANIMATION_2.mp4 — white keyed out with multiply) ============ -->
-<div id="cornerLogo" aria-label="LuND"><video id="logoVid" src="video/logo.mp4" muted playsinline preload="auto"></video></div>
+<div id="cornerLogo" aria-label="LuND"><video id="logoVid" src="logo.mp4" muted playsinline preload="auto"></video></div>
 
 <!-- ============ INTRO ============ -->
 <section id="intro" aria-label="Introduction">
   <div class="scene vscene" data-dur="video">
-    <div class="stage"><video src="video/scene1.mp4" muted playsinline preload="auto"></video><i class="crop-loading"></i></div>
+    <div class="stage"><video src="scene1.mp4" muted playsinline preload="auto"></video><i class="crop-loading"></i></div>
   </div>
 
   <div class="scene vscene" data-dur="video">
     <div class="stage">
-      <video src="video/scene2.mp4" muted playsinline preload="auto"></video><i class="crop-loading"></i>
+      <video src="scene2.mp4" muted playsinline preload="auto"></video><i class="crop-loading"></i>
       <button class="audio-test" id="audioTest" aria-pressed="false" aria-label="Test audio">
         <svg class="at-off" viewBox="0 0 30.4 32" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width=".62" stroke-miterlimit="10"><polygon points="21.7 1.2 11 9.5 1.6 9.5 1.6 22.5 11 22.5 21.7 30.7 23.2 30.7 23.2 1.2 21.7 1.2"/><line x1="5.6" y1="3.5" x2="26.7" y2="27.4"/></g></svg>
         <svg class="at-on" viewBox="0 0 48.32 30.11" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width=".62" stroke-miterlimit="10"><polygon points="20.4 .31 9.72 8.54 .31 8.54 .31 21.57 9.72 21.57 20.4 29.8 21.89 29.8 21.89 .31 20.4 .31"/><g class="spk-dots"></g></g></svg>
@@ -187,7 +187,7 @@
   </div>
 
   <div class="scene vscene" data-dur="video">
-    <div class="stage"><video src="video/scene3.mp4" muted playsinline preload="auto"></video><i class="crop-loading"></i></div>
+    <div class="stage"><video src="scene3.mp4" muted playsinline preload="auto"></video><i class="crop-loading"></i></div>
   </div>
 
   <div class="scene story" data-dur="13" id="stLoud">
@@ -268,8 +268,8 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/5.6.0/maplibre-gl.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-<script src="js/data.js"></script>
-<script src="js/audio.js"></script>
-<script src="js/app.js"></script>
+<script src="data.js"></script>
+<script src="audio.js"></script>
+<script src="app.js"></script>
 </body>
 </html>

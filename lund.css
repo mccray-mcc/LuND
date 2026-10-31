@@ -2,11 +2,11 @@
    White everywhere, black hairlines, cross cursor. Type: Rauschen B (AREA), SoLow (HEALTH),
    ABC Diatype Mono (labels). */
 
-@font-face { font-family: 'Diatype Mono'; src: url('../fonts/ABCDiatypeMonoVariable-Trial.ttf') format('truetype'); font-weight: 100 900; font-display: swap; }
-@font-face { font-family: 'Diatype'; src: url('../fonts/ABCDiatype-Regular-Trial.otf') format('opentype'); font-display: swap; }
-@font-face { font-family: 'SoLow'; src: url('../fonts/SoLow-Trial-Regular.otf') format('opentype'); font-display: swap; }
-@font-face { font-family: 'Rauschen B'; src: url('../fonts/RauschenBTrial-Regular.otf') format('opentype'); font-display: swap; }
-@font-face { font-family: 'Rauschen B'; src: url('../fonts/RauschenBTrial-RegularItalic.otf') format('opentype'); font-style: italic; font-display: swap; }
+@font-face { font-family: 'Diatype Mono'; src: url('ABCDiatypeMonoVariable-Trial.ttf') format('truetype'); font-weight: 100 900; font-display: swap; }
+@font-face { font-family: 'Diatype'; src: url('ABCDiatype-Regular-Trial.otf') format('opentype'); font-display: swap; }
+@font-face { font-family: 'SoLow'; src: url('SoLow-Trial-Regular.otf') format('opentype'); font-display: swap; }
+@font-face { font-family: 'Rauschen B'; src: url('RauschenBTrial-Regular.otf') format('opentype'); font-display: swap; }
+@font-face { font-family: 'Rauschen B'; src: url('RauschenBTrial-RegularItalic.otf') format('opentype'); font-style: italic; font-display: swap; }
 
 :root {
   --ink: #000;
@@ -21,7 +21,7 @@
   --mono: 'Diatype Mono', ui-monospace, Menlo, monospace;
   --raus: 'Rauschen B', 'Diatype', Helvetica, Arial, sans-serif;
   --solow: 'SoLow', 'Diatype Mono', monospace;
-  --cursor: url('../svg/Mouse_Cursor.svg') 16 14, crosshair;
+  --cursor: url('Mouse_Cursor.svg') 16 14, crosshair;
   --hatch: repeating-linear-gradient(135deg, #cfcfcf 0 1.5px, transparent 1.5px 4.5px);
 }
 
